@@ -18,7 +18,7 @@ import numpy as np
 
 load_dotenv()
 # try loading st.secrets, fallback to os.environ
-OPENAI_API_KEY = st.secrets["db_username"] or os.environ["OPENAI_API_KEY"]
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"] or os.environ["OPENAI_API_KEY"]
 # set it to the environment variable
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 client = OpenAI()
