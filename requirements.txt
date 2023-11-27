@@ -2,12 +2,7 @@ python-dotenv
 ipython
 moviepy
 opencv-python-headless
-base64
-time
 openai
-io
-os
 requests
 streamlit
-tempfile
 numpy
